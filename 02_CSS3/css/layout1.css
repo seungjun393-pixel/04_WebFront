@@ -1,0 +1,86 @@
+.area1 {
+  background-color: red;
+}
+.area2 {
+  background-color: orange;
+}
+.area3 {
+  background-color: yellow;
+}
+.area4 {
+  background-color: green;
+}
+.area5 {
+  background-color: blue;
+}
+
+.inline {
+  display: inline;
+}
+
+.block {
+  display: block;
+  width: 150px;
+  height: 150px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+#container-1 {
+  border: 3px solid black;
+  width: 323px;
+  height: 472px;
+}
+
+#container-1 > div {
+  border: 1px dashed hotpink;
+  height: 50%;
+}
+
+#container-1 > div:first-of-type {
+  height: 30%;
+  background-color: red ;
+}
+
+#container-1 > div:last-of-type {
+  height: 70%;
+  background-color: blue;
+}
+
+/* 블럭 형식의 요소는
+별도의 width가 지정되지 않으면
+항상 부모요소의 100% */
+#container-2 {
+  border: 2px black;
+  width: 500px;
+  height: 750px;
+}
+#container-2 > div:first-of-type {
+  height: 20%;
+  background-color: yellowgreen;
+  border: 1px dashed red;
+}
+
+#container-2 > div:last-of-type {
+  height: 50%;
+  background-color: tomato;
+}
+
+#container-2 > div:nth-of-type(2) {
+  height: 30%;
+  background-color: cyan;
+}
+
+#container-3 {
+  border: 5px solid red;
+  width: 400px;
+  height: 200px;
+}
+
+.div-3 {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+}

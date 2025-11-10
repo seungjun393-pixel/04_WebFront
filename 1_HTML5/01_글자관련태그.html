@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- html 용 주석-->
+<!-- !DOCTYPE(Document Type) : 문서 형식을 지정하는 태그 
+  	-> 문서 형식은 html 이다
+-->
+<html lang="ko">
+<!-- html 태그 : html 문서의 내용을 정의하는 태그 (이 안쪽에 HTML 태그를 작성해라) -->
+<!-- lang 속성 : html 문서가 어떤 언어로 되어있는지 표시, 검색 엔진이 참고하는 용도 -->
+
+<head>
+	<!-- head 태그 : html 문서를 정의하는 태그
+    문서의 제목, 스타일 시트(CSS), 스크립트(JS), 메타데이터(문서 정보)-->
+	<meta charset="UTF-8">
+	<!-- meta 태그 charset(문자형식) : html 문서의 문자형식(문자 인코딩)을 선언
+    UTF-8 : 전 세계 모든 문자를 한 파일안에 섞어서 쓸 수 있는 인코딩 형식
+    -> 이 문서를 UTF-8 형식으로 읽어라 
+    -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- 반응형 웹 디자인을 위한 기본 설정값 
+      width=device-width : 화면의 가로 너비를 사용자의 디바이스 너비에 맞춤
+      initial-scale=1.0 : 초기 배율값을 100%로 설정
+  -->
+	<title>01_글자 관련 태그</title>
+	<!-- title 태그 : 문서의 제목을 나타냄(웹 브라우저의 탭의 제목)-->
+</head>
+<hr>
+	<!-- body 태그 : 화면에 보여질 html 문서 내용을 작성하는 태그 -->
+	안녕하세요
+
+	<!-- h1 ~ h6 (heading tag) 
+		- 제목을 입력할때 사용하는 태그
+		- 1~6 까지 6단계 폰트 크기가 지정되어있음
+	-->
+		<h1>HTML 입니다</h1>
+		<h2>HTML 입니다</h2>
+		<h3>HTML 입니다</h3>
+		<h4>HTML 입니다</h4>
+		<h5>HTML 입니다</h5>
+		<h6>HTML 입니다</h6>
+		<!-- atl _ shift + 위아래 방향키 : 줄복사-->
+
+		<hr><
+		<!-- hr (horizon : 수평선) tag -->
+
+	<h3>
+			HTML 문서에서 연속으로 띄어쓰기, 엔터 입력시 발생하는 문제점
+		</h3>
+
+		가 나 
+
+		다 라 마 바
+
+		<!-- HTML 은 연속되는 띄어쓰기는 1칸 띄어쓰기로 인식, -->
+
+	
+		<p>
+			<mark>태그</mark>들은 해당 태그 내에서
+			중첩으로 사용 가능하다. <br>
+			<strong>굵은</strong>글자를 사용할 수도 있고
+			<em>기울이거나</em>
+			<s>취소선</s>을 넣는등<br>
+			자연
+		</p>
+</body>
+
+</html>
