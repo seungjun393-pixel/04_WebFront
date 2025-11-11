@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>개발자 자기소개 웹페이지</title>
+  <link href="/02_CSS3/css/style.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#education-skills">Education/Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact-me">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <div class="profile">
+      <img src="/images/증명사진.png" alt="증명 사진">
+    </div>
+
+    <div class="introduce">
+      <h1>이승준 : Developer</h1>
+      <h4>나이 : 만 24세</h4>
+      <p>프론트 엔드 개발자입니다.</p>
+    </div>
+  </header>
+  <main>
+    <section id="about-me-section">
+      <h2 id="linecolor">About Me</h2>
+      <p>안녕하세요. 저는 프론트 엔드 개발자 이승준입니다.</p>
+      <p>다양한 프로젝트경험, 뛰어난 협업 능력을 가지고있습니다</p>
+      <img src="/images/프로젝트목록.png" alt="프로젝트 목록">
+    </section>
+
+    <section id="education-skills-section">
+      <h2 id="linecolor">Education/Skills</h2>
+      <div>
+        <h3 id="minilinecolor">Education</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>학교/교육기관</th>
+              <th>세부</th>
+              <th>기간</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>경상 국립대학교(4년제)</td>
+              <td>컴퓨터 공학부</td>
+              <td>2019.3~2026.7(예정)</td>
+            </tr>
+
+            <tr>
+              <td>KH 정보교육원</td>
+              <td>Java 개발자 양성과정</td>
+              <td>2025.9~2026.2(예정)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div>
+        <h3 id="minilinecolor">Skills</h3>
+        <p>보유 기술(기술스택) : </p>
+        <ol id="skills-list">
+          <li>HTML5</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Java</li>
+          <li>C++</li>
+          <li>Python</li>
+        </ol>
+      </div>      
+    </section>
+
+    <section id="projects-section">
+      <h2 id="linecolor">Projects</h2>
+      <div>
+        <article>
+          <h4 id="minilinecolor">수능 점수 및 대학별 예상점수 조회 사이트</h4>
+          <p>2024년 만든 수능점수를 입력하면, 대학별 예상</p>
+          <p>수능점수 커트라인을 보여주고, 대학리스트를 추천해줍니다.</p>
+          <img src="/images/project2024.png" alt="프로젝트2024년도">
+          <a href="https://github.com/seungjun393-pixel/project2024">원문 주소</a>
+        </article>
+
+        <article>
+          <h4 id="minilinecolor">방치형 게임</h4>
+          <p>2025년에 만든 방치형 성장 게임입니다.</p>
+          <img src="/images/project2025.png" alt="프로젝트2025년도">
+          <a href="https://github.com/seungjun393-pixel/project2025">원문 주소</a>
+        </article>
+
+        <article>
+          <h4 id="minilinecolor">학교 버스 어플리케이션</h4>
+          <p>2023년에 만든 학교버스의 정보를 쉽게 볼 수있는 앱입니다.</p>
+          <img src="/images/project2023.png" alt="프로젝트2023년도">
+          <a href="https://github.com/seungjun393-pixel/project2023">원문 주소</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact-me-section">
+      <h2 id="linecolor">Contact Me</h2>
+      <p>스카웃, 프로젝트 의뢰, 프로젝트 협업 요청등은 여기에 연락처를 남겨주세요</p>
+      <form class="contact-me-form" method="POST" action="url">
+        이름 <input id="name" type="text" placeholder="이름을 입력하세요">
+        이메일 <input id="email" type="email" placeholder="이메일을 입력하세요">
+        전화번호 <input id="phone" type="tel" placeholder="전화번호를 입력하세요">
+        <button type="submit">제출</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

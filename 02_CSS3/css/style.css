@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  background-color: darkturquoise;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#linecolor {
+  color: chartreuse;
+}
+
+body {
+  margin: 0;
+  padding: 0 250px;
+}
+
+#minilinecolor {
+  color: red;
+}
+
+#skills-list {
+  list-style: none;
+}
+
+header {
+  text-align: center;
+  padding: 60px 60px ;
+}
+
+.introduce {
+  margin-top: 15px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: blueviolet;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.profile img {
+
+  border: 3px solid black;
+}
+
+#about-me-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#about-me-section > img {
+  width : 300px;
+  border : 2px solid black;
+}
+
+#education-skills-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#education-skills-section table {
+  margin: 0 auto;
+  border : 1px solid black;
+  margin-bottom: 30px;
+}
+
+#education-skills-section th,
+#education-skills-section td {
+  border: 1px solid tomato;
+  padding: 10px;
+}
+
+#projects-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#contact-me-section {
+  text-align: center;
+}
