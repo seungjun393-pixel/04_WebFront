@@ -4,16 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>개발자 자기소개 웹페이지</title>
-  <link href="/02_CSS3/css/style.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
 </head>
 <body>
   <header>
     <nav>
       <ul>
-        <li><a href="#about-me">About Me</a></li>
-        <li><a href="#education-skills">Education/Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact-me">Contact Me</a></li>
+        <li><a href="#about-me-section">About Me</a></li>
+        <li><a href="#education-skills-section">Education/Skills</a></li>
+        <li><a href="#projects-section">Projects</a></li>
+        <li><a href="#contact-me-section">Contact Me</a></li>
       </ul>
     </nav>
 
@@ -109,9 +109,9 @@
       <h2 id="linecolor">Contact Me</h2>
       <p>스카웃, 프로젝트 의뢰, 프로젝트 협업 요청등은 여기에 연락처를 남겨주세요</p>
       <form class="contact-me-form" method="POST" action="url">
-        이름 <input id="name" type="text" placeholder="이름을 입력하세요">
-        이메일 <input id="email" type="email" placeholder="이메일을 입력하세요">
-        전화번호 <input id="phone" type="tel" placeholder="전화번호를 입력하세요">
+        이름 <input id="name" name="name"  type="text" placeholder="이름을 입력하세요">
+        이메일 <input id="email" name="email" type="email" placeholder="이메일을 입력하세요">
+        전화번호 <input id="phone" name="phone" type="tel" placeholder="전화번호를 입력하세요">
         <button type="submit">제출</button>
       </form>
     </section>
